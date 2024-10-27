@@ -1,0 +1,26 @@
+.header {
+  background: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem 0 5rem;
+
+  gap: 8px;
+}
+
+.header strong {
+  color: var(--blue-300);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.header strong span {
+  color: var(--purple-500);
+}
+
+.header img {
+  width: 22px;
+  height: 36px;
+}
